@@ -1,0 +1,2 @@
+TEST	6
+CASE	6
