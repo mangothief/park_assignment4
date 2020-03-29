@@ -44,7 +44,7 @@ public class DuplicateCounter
 		// Exception catcher, terminates if caught
 		catch(IOException exception)
 		{
-			System.out.println("You silly goose, something went wrong!");
+			System.out.println("You silly goose, something went wrong! " + exception);
 			System.exit(0);
 		}
 	}
@@ -66,7 +66,7 @@ public class DuplicateCounter
 		// Exception Catcher, terminates if caught
 		}catch(IOException exception)
 		{
-			System.out.println("You silly goose, something went wrong!");
+			System.out.println("You silly goose, something went wrong! " + exception);
 			System.exit(0);
 		}
 	}
